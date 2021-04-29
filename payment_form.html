@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <div class="Container">
+    <form action=""method="get">
+
+   
+   
+    <h1 class="main_heading"> Payment Form </h1>
+    <hr>
+    <h2>Contact Information</h2>
+    <p>
+        Name: * <input type="text" required name="name" placeholder="Abhishek Anand">
+    </p>
+   
+    <fieldset><legend>Gender</legend>
+        <p>Male <input type="radio" name="Gender" id="Gender">
+        Female <input type="radio" name="Gender" id="Gender"></p>
+
+
+    
+    </fieldset>
+    <p>
+        Email<input type="email"name="email"id name="email" required placeholder="xyz@gmail.com"
+    </p>
+    <p>
+        Address:<textarea placeholder="Enter your Address "name="Add."cols="50"rows="10"></textarea>
+    </p>
+    <p>
+        Pincode:
+        <input type="number"name="Pincode"placeholder="851131"
+        
+    </p>
+
+    <h2>Payment Information</h2>
+    <p>Card Type:
+        <select name="Card_Type"id="Card_Type" required name="Card Type" placeholder=--Select the Card Type-->
+        <option value=">--Select a card type--<"></option>
+     
+        <option value="Visa">Visa</option>
+        <option value="Rupay">Rupay</option>
+        <option value="Mastercard">Mastercard</option></select>
+    </p>
+    <p>
+        Net Banking:
+        <select name="Net Banking"id="Net Banking">
+            <option value=">--Select--<"></option>
+            <option value="SBI">SBI</oution>
+            <option value="SBI">HDFC</oution>
+            <option value="SBI">AXIS BANK</oution></select>
+        
+    </p>
+    <p>
+        Card Number<input type="number"name="Card Number"
+    </p>
+    <p>
+        Expiration Date:<input type="date"name="Exp date"id="exp date"
+    </p>
+    <p>
+        CVV:<input type="password"name="cvv"id="cvv"
+    </p>
+    
+      <p>
+
+    <input type="submit"value="Pay Now"
+
+</p>
+
+</div>
+</form>
+
+            
+    
+   
+    
+</body>
+</html>
